@@ -8,7 +8,7 @@ The documentation source of [vue-element-admin](https://github.com/PanJiaChen/vu
 
 ```bash
 # clone the project
-git clone git@github.com:PanJiaChen/vue-element-admin-site.git
+git clone git@github.com:LZQ5232/vuepress.git
 
 # install dependency
 npm install
@@ -17,6 +17,6 @@ npm install
 npm run dev
 ```
 
-open http://localhost:8080/vue-element-admin-site/
+open http://localhost:8080/vuepress/
 
 > Generator by [vuepress](https://github.com/vuejs/vuepress)

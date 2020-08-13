@@ -24,7 +24,7 @@ footer: MIT Licensed | Copyright © 2017-present LZQ5232
 
 ```bash
 # clone the project
-git clone https://github.com/LZQ5232/vue-element-admin.git
+git clone https://github.com/LZQ5232/vuepress.git
 
 # install dependency
 npm install

@@ -7,7 +7,7 @@ var { genNav, getComponentSidebar, deepClone } = utils
 module.exports = {
   title: 'vue-element-admin',
   description: 'A magical vue admin',
-  base: '/vue-element-admin-site/',
+  base: '/vuepress/',
   head: [
     [
       'link',
@@ -18,14 +18,14 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    repo: 'LZQ5232/vue-element-admin',
-    docsRepo: 'LZQ5232/vue-element-admin-site',
+    repo: 'LZQ5232/vuepress',
+    docsRepo: 'LZQ5232/vuepress',
     docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
     algolia: {
       apiKey: 'ffce0083d0830de5f562c045a481410b',
-      indexName: 'vue_element_admin'
+      indexName: 'vuepress'
     },
     locales: {
       '/': {
@@ -51,7 +51,7 @@ module.exports = {
           },
           {
             text: '中文站点(gitee)',
-            link: 'https://LZQ5232.gitee.io/vue-element-admin-site/zh/'
+            link: 'https://LZQ5232.gitee.io/vuepress/zh/'
           }
         ],
         sidebar: {
