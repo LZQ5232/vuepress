@@ -2,7 +2,6 @@ module.exports = {
   title: '迷你编程文档',
   description: '专注于迷你编程文档',
   base: '/vuepress/',
-  dest: 'public',
   head: [
     [
       'link',
