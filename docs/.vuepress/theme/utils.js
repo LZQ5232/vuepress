@@ -28,7 +28,7 @@ export function loadCarbon() {
 
   document.body.appendChild(script)
   dynamicLoadScript(
-    'https://cdn.carbonads.com/carbon.js?serve=CE7IK5QY&placement=panjiachengithubio',
+    'https://cdn.carbonads.com/carbon.js?serve=CE7IK5QY&placement=LZQ5232githubio',
     () => {},
     id
   )

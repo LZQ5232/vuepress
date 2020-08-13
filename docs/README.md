@@ -17,14 +17,14 @@ features:
     details: Built-in industry universal international solution
   - title: Theming
     details: Supports multiple dynamic skin methods
-footer: MIT Licensed | Copyright © 2017-present PanJiaChen
+footer: MIT Licensed | Copyright © 2017-present LZQ5232
 ---
 
 ## Getting Started
 
 ```bash
 # clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/LZQ5232/vue-element-admin.git
 
 # install dependency
 npm install

@@ -38,4 +38,4 @@ console.log(process.env.VUE_APP_xxxx)
 
 你可以通过`process.env.NODE_ENV`来执行判断环境，来设置不同的参数。
 
-具体代码可借鉴[vue.config.js](https://github.com/PanJiaChen/vue-element-admin/blob/master/vue.config.js)
+具体代码可借鉴[vue.config.js](https://github.com/LZQ5232/vue-element-admin/blob/master/vue.config.js)

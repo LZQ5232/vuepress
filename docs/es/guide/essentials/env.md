@@ -38,4 +38,4 @@ Además de algunas variables de entorno escritas en `.env`, hay algunas variable
 
 Puedes establecer los diferentes parámetros ejecutando el entorno de juicio con `process.env.NODE_ENV`.
 
-El código específico lo puedes aprender de [vue.config.js](https://github.com/PanJiaChen/vue-element-admin/blob/master/vue.config.js)
+El código específico lo puedes aprender de [vue.config.js](https://github.com/LZQ5232/vue-element-admin/blob/master/vue.config.js)

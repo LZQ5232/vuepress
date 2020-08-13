@@ -6,25 +6,25 @@ pageClass: getting-started
 
 [![vue](https://img.shields.io/badge/vue-2.6.10-brightgreen.svg)](https://github.com/vuejs/vue)
 [![element-ui](https://img.shields.io/badge/element--ui-2.7.0-brightgreen.svg)](https://github.com/ElemeFE/element)
-[![Build Status](https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master)](https://travis-ci.org/PanJiaChen/vue-element-admin)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg)](https://github.com/PanJiaChen/vue-element-admin/releases)
-[![donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://panjiachen.gitee.io/vue-element-admin-site/zh/donate)
-[![GitHub stars](https://img.shields.io/github/stars/PanJiaChen/vue-element-admin.svg?style=social&label=Stars)](https://github.com/PanJiaChen/vue-element-admin)
+[![Build Status](https://travis-ci.org/LZQ5232/vue-element-admin.svg?branch=master)](https://travis-ci.org/LZQ5232/vue-element-admin)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/LZQ5232/vue-element-admin/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/LZQ5232/vue-element-admin.svg)](https://github.com/LZQ5232/vue-element-admin/releases)
+[![donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://LZQ5232.gitee.io/vue-element-admin-site/zh/donate)
+[![GitHub stars](https://img.shields.io/github/stars/LZQ5232/vue-element-admin.svg?style=social&label=Stars)](https://github.com/LZQ5232/vue-element-admin)
 
-[vue-element-admin](http://panjiachen.github.io/vue-element-admin) is a production-ready front-end solution for admin interfaces. It based on [vue](https://github.com/vuejs/vue) and use the UI Toolkit [element-ui](https://github.com/ElemeFE/element).
+[vue-element-admin](http://LZQ5232.github.io/vue-element-admin) is a production-ready front-end solution for admin interfaces. It based on [vue](https://github.com/vuejs/vue) and use the UI Toolkit [element-ui](https://github.com/ElemeFE/element).
 
 It is a magical vue admin based on the newest development stack of vue, built-in i18n solution, typical templates for enterprise applications, lots of awesome features. It helps you build a large complex Single-Page Applications. I believe whatever your needs are, this project will help you.
 
 :::tip
 This project integrates a lot of features that you may not use, it will cause a lot of code redundancy. If your project does not pay attention to this issue, you can also directly develop it based on it.
-Otherwise, you can use [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template).
+Otherwise, you can use [vue-admin-template](https://github.com/LZQ5232/vue-admin-template).
 
-- Integrated Solution: [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-- Basic Template: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
-- Desktop: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
+- Integrated Solution: [vue-element-admin](https://github.com/LZQ5232/vue-element-admin)
+- Basic Template: [vue-admin-template](https://github.com/LZQ5232/vue-admin-template)
+- Desktop: [electron-vue-admin](https://github.com/LZQ5232/electron-vue-admin)
 - Typescript: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-- Others: [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
+- Others: [awesome-project](https://github.com/LZQ5232/vue-element-admin/issues/2312)
   :::
 
 <br/>
@@ -161,7 +161,7 @@ This project has built the following templates, and have built a scaffold based 
 
 ```bash
 # clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/LZQ5232/vue-element-admin.git
 
 # enter the project directory
 cd vue-element-admin
@@ -179,7 +179,7 @@ This will automatically open [http://localhost:9527](http://localhost:9527).
 
 If you see the following page then you have succeeded.
 
-![](https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/1bc334a6-32a8-4f29-a037-ac3f5ce32588.png)
+![](https://LZQ5232.gitee.io/gitee-cdn/vue-element-admin-site/1bc334a6-32a8-4f29-a037-ac3f5ce32588.png)
 
 We have built-in models, standard components, mock data, hot module reloading, state management, i18n, global router, etc. You can continue exploring other documents for more details on those topics.
 
@@ -191,11 +191,11 @@ We have built-in models, standard components, mock data, hot module reloading, s
 
 ## Contribution
 
-The repository of documentation is [vue-element-admin-site](https://github.com/PanJiaChen/vue-element-admin-site) based on [vuepress](https://github.com/vuejs/vuepress) development.
+The repository of documentation is [vue-element-admin-site](https://github.com/LZQ5232/vue-element-admin-site) based on [vuepress](https://github.com/vuejs/vuepress) development.
 
 There may be some spelling or translation errors in the course of writing this document. It is welcome to point out by issue or pr. After all, English is not my mother tongue.
 
-[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) is also continuing to iterate, summarize and summarize more features, and summarize the best practices of product templates/components/business scenarios in the middle and back office. This project is also very much looking forward to your participation and [feedback](https://github.com/PanJiaChen/vue-element-admin/issues).
+[vue-element-admin](https://github.com/LZQ5232/vue-element-admin) is also continuing to iterate, summarize and summarize more features, and summarize the best practices of product templates/components/business scenarios in the middle and back office. This project is also very much looking forward to your participation and [feedback](https://github.com/LZQ5232/vue-element-admin/issues).
 
 ## Donate
 

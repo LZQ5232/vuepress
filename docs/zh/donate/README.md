@@ -6,7 +6,7 @@ sidebar: false
 如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 :tropical_drink:
 :::
 
-![donate](https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/bd273f0d-83a0-4ef2-92e1-9ac8ed3746b9.png)
+![donate](https://LZQ5232.gitee.io/gitee-cdn/vue-element-admin-site/bd273f0d-83a0-4ef2-92e1-9ac8ed3746b9.png)
 
 ## 微信打赏
 
@@ -14,7 +14,7 @@ sidebar: false
 或者你可以用微信，打赏作者一杯可乐
 :::
 
-<img class="no-margin" src="https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/5390879f-b544-468d-846b-ea5061cf4863.jpeg"  height="300px" >
+<img class="no-margin" src="https://LZQ5232.gitee.io/gitee-cdn/vue-element-admin-site/5390879f-b544-468d-846b-ea5061cf4863.jpeg"  height="300px" >
 
 ## 购买贴纸
 
@@ -30,14 +30,14 @@ sidebar: false
 
 Open source projects consume a lot of my rest time. And at the end of the day we all have to put a roof over our heads and food on the table, so this is why I have a patreon-page.
 
-<a target="_blank" href="https://www.patreon.com/panjiachen">
+<a target="_blank" href="https://www.patreon.com/LZQ5232">
 <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="50">
 </a>
 
 ## 字节跳动招聘（长期有效，急缺人）
 
 本人目前在字节跳动担任前端工程师，坐标：上海 Data-广告系统-广告创意中心。
-个人 Github: [https://github.com/PanJiaChen](https://github.com/PanJiaChen)
+个人 Github: [https://github.com/LZQ5232](https://github.com/LZQ5232)
 
 项目组目前非常缺前端、后端、测试。欢迎有兴趣的同学找我内推。
 
@@ -61,7 +61,7 @@ JD 看看就可以了，大同小异，年限不限，具体评级按照面试�
 
 ### 投递简历
 
-若发现感兴趣的职位或者有什么想了解一下的，欢迎发送邮件至 `panjiachen@bytedance.com` 找我交流沟通，请备注内推-xxx-职位-城市。
+若发现感兴趣的职位或者有什么想了解一下的，欢迎发送邮件至 `LZQ5232@bytedance.com` 找我交流沟通，请备注内推-xxx-职位-城市。
 
 ### 成长环境
 

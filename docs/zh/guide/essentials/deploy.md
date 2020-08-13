@@ -14,13 +14,13 @@ npm run build:stage
 
 构建打包成功之后，会在根目录生成 `dist` 文件夹，里面就是构建打包好的文件，通常是 `***.js` 、`***.css`、`index.html` 等静态文件。
 
-如果需要自定义构建，比如指定 `dist` 目录等，则需要通过 [config](https://github.com/PanJiaChen/vue-element-admin/blob/master/vue.config.js)的 `outputDir` 进行配置。
+如果需要自定义构建，比如指定 `dist` 目录等，则需要通过 [config](https://github.com/LZQ5232/vue-element-admin/blob/master/vue.config.js)的 `outputDir` 进行配置。
 
 <br>
 
 ## 环境变量
 
-所有测试环境或者正式环境变量的配置都在 [.env.development](https://github.com/PanJiaChen/vue-element-admin/blob/master/.env.development)等 `.env.xxxx`文件中。
+所有测试环境或者正式环境变量的配置都在 [.env.development](https://github.com/LZQ5232/vue-element-admin/blob/master/.env.development)等 `.env.xxxx`文件中。
 
 它们都会通过 `webpack.DefinePlugin` 插件注入到全局。
 
@@ -47,7 +47,7 @@ npm run preview -- --report
 
 运行之后你就可以在 [http://localhost:9526/report.html](http://localhost:9526/report.html) 页面看到具体的体积分布
 
-![](https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/3fddf034-2b38-4299-b0d2-b748fb2abef0.jpg)
+![](https://LZQ5232.gitee.io/gitee-cdn/vue-element-admin-site/3fddf034-2b38-4299-b0d2-b748fb2abef0.jpg)
 
 具体的优化可以参考 [Webpack 大法之 Code Splitting](https://zhuanlan.zhihu.com/p/26710831)
 
@@ -137,4 +137,4 @@ location / {
 </IfModule>
 ```
 
-相关[issue](https://github.com/PanJiaChen/vue-element-admin/issues/370)
+相关[issue](https://github.com/LZQ5232/vue-element-admin/issues/370)

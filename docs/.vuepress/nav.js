@@ -6,15 +6,15 @@ var EcosystemNav = [
     items: [
       {
         text: 'vue-element-admin',
-        link: 'https://github.com/PanJiaChen/vue-element-admin'
+        link: 'https://github.com/LZQ5232/vue-element-admin'
       },
       {
         text: 'vue-admin-template',
-        link: 'https://github.com/PanJiaChen/vue-admin-template'
+        link: 'https://github.com/LZQ5232/vue-admin-template'
       },
       {
         text: 'electron-vue-admin',
-        link: 'https://github.com/PanJiaChen/electron-vue-admin'
+        link: 'https://github.com/LZQ5232/electron-vue-admin'
       },
       {
         text: 'vue-typescript-admin-template',
@@ -22,19 +22,19 @@ var EcosystemNav = [
       },
       {
         text: 'awesome-project',
-        link: 'https://github.com/PanJiaChen/vue-element-admin/issues/2312'
+        link: 'https://github.com/LZQ5232/vue-element-admin/issues/2312'
       },
       {
         text: 'vue-countTo',
-        link: 'https://github.com/PanJiaChen/vue-countTo'
+        link: 'https://github.com/LZQ5232/vue-countTo'
       },
       {
         text: 'vue-split-pane',
-        link: 'https://github.com/PanJiaChen/vue-split-pane'
+        link: 'https://github.com/LZQ5232/vue-split-pane'
       },
       {
         text: 'awesome-bookmarks',
-        link: 'https://github.com/PanJiaChen/awesome-bookmarks',
+        link: 'https://github.com/LZQ5232/awesome-bookmarks',
         type: 'ZH'
       }
     ]
@@ -46,7 +46,7 @@ var EcosystemNav = [
     items: [
       {
         textZH: '国内文档(解决Github.io访问慢的问题)',
-        link: 'https://panjiachen.gitee.io/vue-element-admin-site/zh'
+        link: 'https://LZQ5232.gitee.io/vue-element-admin-site/zh'
       },
       {
         text: 'Gitter',
@@ -65,7 +65,7 @@ var EcosystemNav = [
       },
       {
         textZH: 'QQ群',
-        link: 'https://github.com/PanJiaChen/vue-element-admin/issues/602',
+        link: 'https://github.com/LZQ5232/vue-element-admin/issues/602',
         type: 'ZH'
       },
       {
@@ -77,7 +77,7 @@ var EcosystemNav = [
         text: 'Changelog',
         textES: 'Registro de cambios',
         textZH: '更新记录',
-        link: 'https://github.com/PanJiaChen/vue-element-admin/releases'
+        link: 'https://github.com/LZQ5232/vue-element-admin/releases'
       }
     ]
   }

@@ -38,4 +38,4 @@ In addition to some environment variables written in `.env`, there are some buil
 
 You can set the different parameters by executing the judgment environment with `process.env.NODE_ENV`.
 
-Specific code can learn from [vue.config.js](https://github.com/PanJiaChen/vue-element-admin/blob/master/vue.config.js)
+Specific code can learn from [vue.config.js](https://github.com/LZQ5232/vue-element-admin/blob/master/vue.config.js)

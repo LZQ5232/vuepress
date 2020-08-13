@@ -5,7 +5,7 @@ sidebar: false
 ## 字节跳动招聘（长期有效，急缺人）
 
 本人目前在字节跳动担任前端工程师，坐标：上海 Data-广告系统-广告创意中心。
-个人 Github: [https://github.com/PanJiaChen](https://github.com/PanJiaChen)
+个人 Github: [https://github.com/LZQ5232](https://github.com/LZQ5232)
 
 项目组目前非常缺前端、后端、测试。欢迎有兴趣的同学找我内推。
 
@@ -37,7 +37,7 @@ JD 看看就可以了，大同小异，年限不限，具体评级按照面试�
 
 ### 投递简历
 
-若发现感兴趣的职位或者有什么想了解一下的，欢迎发送邮件至 `panjiachen@bytedance.com` 找我交流沟通，请备注内推-xxx-职位-城市。
+若发现感兴趣的职位或者有什么想了解一下的，欢迎发送邮件至 `LZQ5232@bytedance.com` 找我交流沟通，请备注内推-xxx-职位-城市。
 
 ### 成长环境
 

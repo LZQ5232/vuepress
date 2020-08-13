@@ -18,8 +18,8 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    repo: 'PanJiaChen/vue-element-admin',
-    docsRepo: 'PanJiaChen/vue-element-admin-site',
+    repo: 'LZQ5232/vue-element-admin',
+    docsRepo: 'LZQ5232/vue-element-admin-site',
     docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
@@ -51,7 +51,7 @@ module.exports = {
           },
           {
             text: '中文站点(gitee)',
-            link: 'https://panjiachen.gitee.io/vue-element-admin-site/zh/'
+            link: 'https://LZQ5232.gitee.io/vue-element-admin-site/zh/'
           }
         ],
         sidebar: {
@@ -161,7 +161,7 @@ module.exports = {
           },
           {
             text: '中文站点(gitee)',
-            link: 'https://panjiachen.gitee.io/vue-element-admin-site/zh/'
+            link: 'https://LZQ5232.gitee.io/vue-element-admin-site/zh/'
           },
           {
             text: '招聘',
