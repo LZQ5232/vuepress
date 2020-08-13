@@ -1,37 +1,37 @@
-# 权限验证
+# Permission
 
-在 [手摸手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac) 这篇文章中其实已经详细介绍过了。
+It has been introduced in detail in this article--[手摸手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac).
 
-该项目中权限的实现方式是：通过获取当前用户的权限去比对路由表，生成当前用户具的权限可访问的路由表，通过 `router.addRoutes` 动态挂载到 `router` 上。
+The implementation of this project's permission is: compare the routing table by obtaining the current user's permission, and generate the routing table accessible by the current user with the permission, and dynamically mount it to `router` through `router.addRoutes`.
 
-但其实很多公司的业务逻辑可能不是这样的，举一个例子来说，很多公司的需求是每个页面的权限是动态配置的，不像本项目中是写死预设的。但其实原理是相同的。如：你可以在后台通过一个 tree 控件或者其它展现形式给每一个页面动态配置权限，之后将这份路由表存储到后端。当用户登录后得到 `roles`，前端根据`roles` 去向后端请求可访问的路由表，从而动态生成可访问页面，之后就是 router.addRoutes 动态挂载到 router 上，你会发现原来是相同的，万变不离其宗。
+But in fact, the business logic of many companies may not be the case. For example, the requirement of many companies is that the permissions of each page are dynamically configured, unlike the default settings in this project. But in fact the principle is the same. For example, you can dynamically configure permissions for each page through a tree control or other presentation, and then store this routing table to the back end. When the user logs in to get `roles`, the front end requests the accessible routing table to the backend according to `roles`, so that the accessible pages are dynamically generated. After that, the router.addRoutes is dynamically mounted to the router. You will find the same. , never change their case.
 
-只是多了一步将后端返回路由表和本地的组件映射到一起。相关[issue](https://github.com/PanJiaChen/vue-element-admin/issues/293)
+Just one more step to map the back-end return routing table with the local components. [issue](https://github.com/PanJiaChen/vue-element-admin/issues/293)
 
 ```js
 const map={
- login:require('login/index').default // 同步的方式
- login:()=>import('login/index')      // 异步的方式
+ login:require('login/index').default // sync
+ login:()=>import('login/index')      // async
 }
-//你存在服务端的map类似于
+// The map on which you have a server is similar with
 const serviceMap=[
  { path: '/login', component: 'login', hidden: true }
 ]
-//之后遍历这个map，动态生成asyncRoutes
-并将 component 替换为 map[component]
+// After traversing this map, dynamically generate asyncRoutes
+And replace component with map[component]
 ```
 
-Ps:不排除之后本项目会增加权限控制面板支持真正的动态配置权限。
+Ps: Do not rule out this project will increase the permissions control panel to support true dynamic configuration permissions.
 
-## 逻辑修改
+## Logical modification
 
-现在路由层面权限的控制代码都在 `@/permission.js` 中，如果想修改逻辑，直接在适当的判断逻辑中 `next()` 释放钩子即可。
+The control code of the routing level right now is in `@/permission.js`. If you want to change the logic, you can release the hook `next()` directly in the appropriate judgment logic.
 
-## 指令权限
+## Permission directive
 
-封装了一个指令权限，能简单快速的实现按钮级别的权限判断。 [v-permission](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/directive/permission)
+Write a permission directive, and can easily and quickly implement button-level permission judgment. [v-permission](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/directive/permission)
 
-**使用**
+**Use**
 
 ```html
 <template>
@@ -46,19 +46,19 @@ Ps:不排除之后本项目会增加权限控制面板支持真正的动态配�
 </template>
 
 <script>
-// 当然你也可以为了方便使用，将它注册到全局
-import permission from '@/directive/permission/index.js' // 权限判断指令
+// Of course you can also register it for the sake of convenience.
+import permission from '@/directive/permission/index.js'
 export default{
   directives: { permission }
 }
 </script>
 ```
 
-**局限**
+**Limitations**
 
 In some cases it is not suitable to use v-permission, such as element Tab component which can only be achieved by manually setting the v-if.
 
-可以使用全局权限判断函数，用法和指令 `v-permission` 类似。
+You can use the global permission judgment function. The usage is similar to the instruction `v-permission`.
 
 ```html
 <template>
@@ -68,7 +68,7 @@ In some cases it is not suitable to use v-permission, such as element Tab compon
 </template>
 
 <script>
-import checkPermission from '@/utils/permission' // 权限判断函数
+import checkPermission from '@/utils/permission'
 
 export default{
    methods: {

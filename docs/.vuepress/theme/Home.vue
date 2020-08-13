@@ -43,8 +43,10 @@ export default {
       }
     }
   },
-  mounted() {
-    console.log('this.$page.frontmatter', this.$page.frontmatter)
+  methods: {
+    clickCoding(tag) {
+      ga('send', 'click', 'e.coding', 'Action', tag)
+    }
   }
 }
 </script>

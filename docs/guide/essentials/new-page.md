@@ -1,10 +1,10 @@
-# 新增页面
+# New Page
 
-如果熟悉 `vue-router` 的配置就很简单了。
+If you are familiar with the `vue-router` then it will be very simple.
 
-首先在 `@/router/index.js` 中增加你需要添加的路由。
+First add the route to the `@/router/index.js`.
 
-**如：新增一个 excel 页面**
+**Such as: add an excel page**
 
 ```js
 {
@@ -20,7 +20,7 @@
 ```
 
 ::: tip
-仅仅这样不会有任何效果的，它只是创建了一个基于`layout`的一级路由，你还需要在它下面的 `children` 中添加子路由。
+It just creates a blank route based on 'layout', and you also need to add a route to the 'children' below it.
 :::
 
 ```js
@@ -44,15 +44,17 @@
 }
 ```
 
-**这样侧边栏就会出现如图所示的 `menu-item` 了**
+**This sidebar will appear the menu-item**
 
 ![](https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/2ab6921d-f9bb-4fbb-a151-0e6027e23a6e.png)
 
 <br/>
 
-::: tip
-由于 `children` 下面只声明了一个路由所以不会有展开箭头，如果`children`下面的路由个数大于 1 就会有展开箭头，如下面所示。
-如果你想忽视这个自动判断可以使用 `alwaysShow: true`，这样它就会忽略之前定义的规则，一直显示根路由。详情见[路由和侧边栏](/zh/guide/essentials/router-and-nav.html#路由和侧边栏)
+:::tip
+Since `children` only declares one route below, there will be no expansion arrow. If the number of routes under `children` is greater than 1, there will be an expansion arrow, as shown below.
+
+If you want to ignore this automatic decision, you can use `alwaysShow: true`, so that it will ignore the previously defined rule and display the root route. See the [Router and Nav](router-and-nav.md) for details.
+
 :::
 
 ```js
@@ -66,62 +68,66 @@
     icon: 'excel'
   },
   children: [
-    { path: 'export-excel', component: ()=>import('excel/exportExcel'), name: 'exportExcel', meta: { title: 'exportExcel' }},
-    { path: 'export-selected-excel', component: ()=>import('excel/selectExcel'), name: 'selectExcel', meta: { title: 'selectExcel' }},
-    { path: 'upload-excel', component: ()=>import('excel/uploadExcel'), name: 'uploadExcel', meta: { title: 'uploadExcel' }}
+    { path: 'export-excel', component:()=>import('excel/exportExcel'), name: 'exportExcel', meta: { title: 'exportExcel' }},
+    { path: 'export-selected-excel', component:()=>import('excel/selectExcel'), name: 'selectExcel', meta: { title: 'selectExcel' }},
+    { path: 'upload-excel', component:()=>import('excel/uploadExcel'), name: 'uploadExcel', meta: { title: 'uploadExcel' }}
   ]
 }
 ```
 
 ![](https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/89d6a0b8-5cf7-4a19-9afd-7267ec454066.png)
 
-**侧边栏就会出现如图所示的 `submenu` 了**
+**The sidebar will appear the `submenu`.**
 
 <br/>
-<br/>
 
-## 多级目录(嵌套路由)
+## Nested Routes
 
-如果你的路由是多级目录，如本项目 [@/views/nested](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/views/nested) 那样， 有三级路由嵌套的情况下，**不要忘记还要手动在二级目录的根文件下添加一个 `<router-view>`**。
+If you have a nested Route, such as [@/views/nested](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/views/nested),
+**Don't forget to manually add an `< router-view >` to the root file of the secondary directory**.
 
 ```html
- <!-- 父级路由组件  -->
+ <!-- parent view  -->
 <template>
   <div>
-    <!-- xxx html 内容  -->
+    <!-- xxx html dom  -->
     <router-view />
   </div>
 </template>
 ```
 
-如：[@/views/nested/menu1/index.vue](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/views/nested/menu1/index.vue)，原则上有多少级路由嵌套就需要多少个`<router-view>`。
+Such as: [@/views/nested/menu1/index.vue](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/views/nested/menu1/index.vue).
+
+**Note:** As many `<router-view>` as the level of routes nested.
 
 ![](https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/9459de62-64d0-4819-9730-daf3f9889018.png)
 
 <br/>
 
-## 新增 view
+## Create View
 
-新增完路由之后不要忘记在 `@/views` 文件下 创建对应的文件夹，一般性一个路由对应一个文件，该模块下的功能组件或者方法就建议在本文件夹下创建一个`utils`或`components`文件夹，各个功能模块维护自己的`utils`或`components`组件。如：
+After adding the route, create a view under the `@/views`. As usual, a router correspond
+a view.
+
+Suggestion if a component or utils function only used in this view, just create a component folder under this view, lt is more convenient for each module to maintain its own `utils` or `components`.
 
 ![](https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/8ca55a30-c22c-4143-aa8d-2a0d3e04fc33.png)
 
 <br/>
-<br/>
 
-## 新增 api
+## Create Api
 
-最后在 [@/api](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/api) 文件夹下创建本模块对应的 api 服务。
+Finally, under the [@/api](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/api) folder, create the corresponding api service for this module.
 
-## 新增组件
+## Create Component
 
-个人写 vue 项目的习惯，在全局的 `@/components` 只会写一些全局的组件，如富文本，各种搜索组件，封装的日期组件等等能被公用的组件。每个页面或者模块特定的业务组件则会写在当前 views 下面。如：`@/views/article/components/xxx.vue`。这样拆分大大减轻了维护成本。
+Personally write vue project habits, the global `@/components` will only write some global components, such as rich text, various search components, packaged date components, etc. can be shared components. Each page or module-specific business component is written under the current views. Such as: `@/views/article/components/xxx.vue`. This split greatly reduces maintenance costs.
 
-**请记住拆分组件最大的好处不是公用而是可维护性！**
+**Remember that the biggest benefit of splitting components is not shared code but maintainability! **
 
-## 新增样式
+## Create Style
 
-页面的样式和组件是一个道理，全局的 `@/style` 放置一下全局公用的样式，每一个页面的样式就写在当前 `views`下面，请记住加上`scoped` 或者命名空间，避免造成全局的样式污染。
+The page's style and components are the same. The global `@/style` writes a global common style. The style of each page is written under the current `views`. Please remember to add `scoped` or namespace to avoid Causes global style pollution.
 
 ```css
 <style>

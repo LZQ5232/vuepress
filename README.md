@@ -1,15 +1,22 @@
-# wiki_minicode
+# vue-element-admin-site
 
-The documentation source of [wiki_minicode](https://git.miniaixue.com/linziqian/wiki_minicode)
+The documentation source of [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+
+[Online](https://panjiachen.github.io/vue-element-admin-site)
 
 ## Development
 
 ```bash
 # clone the project
-git clone http://119.3.101.12:8087/linziqian/wiki_minicode.git
+git clone git@github.com:PanJiaChen/vue-element-admin-site.git
+
 # install dependency
 npm install
 
 # develop
 npm run dev
 ```
+
+open http://localhost:8080/vue-element-admin-site/
+
+> Generator by [vuepress](https://github.com/vuejs/vuepress)
