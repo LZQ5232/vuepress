@@ -14,7 +14,6 @@ module.exports = {
   themeConfig: {
     repo: 'https://github.com/LZQ5232/vuepress',
     docsRepo: 'https://github.com/LZQ5232/vuepress',
-    docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
     smoothScroll: true,
